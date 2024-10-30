@@ -1,0 +1,19 @@
+{
+  "name": "watchducks-ns",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node app.ts"
+  },
+  "private": true,
+  "devDependencies": {
+    "@types/dns-packet": "^5.6.5",
+    "@types/node": "^22.8.4"
+  },
+  "dependencies": {
+    "dns-packet": "^5.6.1",
+    "ts-node": "^10.9.2"
+  }
+}
