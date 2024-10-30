@@ -6,7 +6,7 @@ import {PacketResponse} from "./packet-response";
 export class NameServer {
     private readonly server: dgram.Socket;
 
-    private readonly PORT = 5300;
+    private readonly PORT = 53;
     private readonly HOST = '0.0.0.0';
     private readonly DOMAIN = 'WaTChdUcKS-TesT.Shop';
     private readonly IP = '192.0.2.1';
